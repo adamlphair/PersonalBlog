@@ -12,19 +12,21 @@
 
     <body>
         <!--Navigation-->
-        <nav class = "nav-container">
-            <ul>
-                <li id =nav_one>Home</li>
-                <li id =nav_two>About</li>
-                <li id =nav_three>Posts</li>
-            </ul>
-        </nav>
+            <ul class="navigation">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">Contact</a></li>
+              </ul>
 
         <!--Header-->
         <header class = "header">
             <h1>My Blog</h1>
             <p>Really Random Ramblings</p>
+            <img src="images/BeerGlassHeader.jpeg" alt="3 Beer Glasses" width="100%">
         </header>  
+
+    
 
         <main>
             <!--Blog Entries-->
@@ -49,8 +51,8 @@
             </section>
 
             <!--Second Entry-->
-            <img src="images/TxBeerFlight.jpg" alt="Texas Beer Flight">
             <section class = "blogEntries">
+                <img src="images/TxBeerFlight.jpg" alt="Texas Beer Flight">
                 <div class = "blogEntryOne">
                     <h2>Blog Title Heading</h2>
                     <h3>Title Description,  <span class ="blogDate">Random Date, 2021</span></h3>
@@ -68,7 +70,7 @@
             </section>
 
             <!--About me section-->
-            <aside>
+            <aside class ="about"> 
                 <section>
                     <div>
                         <h3><b>About Me</b></h3>
@@ -79,7 +81,8 @@
             </aside>
         </main>
 
-        <footer>
+        <footer class ="footer">
+            <span>&copy;Adam Phair, 2021</span>
             <img src="images/Fb_small_icon.png" alt="Small Facebook Icon">
             <img src="images/twitter_small_icon.png" alt="Small Twitter Icon">
         </footer>
